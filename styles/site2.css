@@ -1,0 +1,457 @@
+@font-face {
+	font-family: "Huntsman";
+	src: url('../Fonts/Huntsman.otf');
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url('../Fonts/Exo.otf');
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url('../Fonts/OpenSans.ttf');
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	color: #5e5e5e;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.1);*/
+    background-size: 100%;
+}
+
+body {
+    background: url('../images/promo3.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#headerInsite {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 15px;
+	background: url('../Images/logopm2.png') no-repeat;
+	background-size: cover;
+}
+
+#companyName {
+	text-align: right;
+	font-family: "Huntsman", sans-serif;
+	float: left;
+	margin-left: 15px;
+	font-size: 30px;
+	line-height: 50px;
+	color: #fff;
+}
+
+#navWrap {
+	aligh-items: center;
+	flex-direction: row;
+	position: absolute;
+	display: flex;
+	height: 50px;
+	left: 720px;
+}
+
+#navWrap a {
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	display: inline-block;
+	font-family: "OpenSans", sans-serif;
+	width: 200px;
+	padding: 15px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;	
+}
+
+#navWrap a:last-child {
+	border-left: none;
+}
+
+#navWrap a:hover{
+	background-color: #fff;
+    color: #000;
+}
+
+#content {
+    min-height: 600px;
+    width: 1920px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+}
+
+#footerInside {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#copyrights {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#social {
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+}
+
+.socialItem {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+#contacts {
+    position: absolute;
+    left: -300px;
+    top: 20px;
+    width: 340px;
+}
+
+.contactWrap {
+	float: left;
+    width: 400px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.contactIcon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+#footerNav {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 100px;
+}
+
+#footerNav a {
+    display: inline-block;
+    text-align: right;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#footerNav a:hover {
+    color: #fff;
+}
+
+/* -------------------- НАЧАЛО стилей для главной страницы --------------------- */
+
+#promo {
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+    float: left;
+}
+
+#promoText {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    font-family: Exo, sans-serif;
+    font-size: 2em;
+    word-spacing: 8px;
+}
+
+/*#mainTextWrap {
+	background: url('../images/promo3.jpg') no-repeat center center fixed;
+    width: 100%;
+    float: center;
+}
+
+#mainText {
+    width: 1200px;
+    margin: auto;
+    text-align: justify;
+}
+*/
+@media all and (min-width: 1500px) {
+    #promo {
+        height: 720px;
+    }
+}
+
+/* ----------------- КОНЕЦ стилей для главной страницы ---------------------- */
+
+/* ------------------ НАЧАЛО стилей для главной страницы магазниа ---------------------- */
+
+#promoShop {
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+    float: center;
+}
+
+#promoTextShop {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    font-family: Exo, sans-serif;
+    font-size: 2em;
+    word-spacing: 8px;
+}
+
+#shopWrap {
+    width: 100%;
+    float: left;
+}
+
+.shopUnit {
+    float: left;
+    width: 28%;
+    padding: 1px;
+    margin-left: 10px;
+    /*border: 1px solid rgba(225, 225, 225, 0.7);*/
+    /*margin-right: 6.365%;*/
+}
+
+.shopUnit:nth-child(1n) {
+}
+
+.shopUnitName {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    font-family: Exo, sans-serif;
+    font-size: 1.2em;
+}
+
+.shopUnit img {
+    border-radius: 15px;
+    width: 100%;
+    height: 331px;
+}
+
+.shopUnitShortDesc {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.shopUnitPrice {
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 10px;
+    color: #6a6747;
+    font-weight: bold;
+}
+
+.shopUnitMore {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    margin-left: 25%;
+    font-family: "OpenSans", sans-serif;
+    width: 250px;
+    padding: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+
+    /*border: none;
+    padding: 50px 15px;
+    background-color: #696969;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #e6e09a;
+    text-decoration: none;*/
+}
+
+.shopUnitMore:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*.shopUnitMore:hover {
+    color: #fff;
+    background-color: #fff;
+}*/
+
+/* ------------------ КОНЕЦ стилей для главной старницы магазина -------------------------- */
+
+/* ---------------- НАЧАЛО стилей для страницы с открытым товаром ----------------------- */
+
+#openedProduct-img {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#openedProduct-img img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(225, 225, 225, 0.7);
+}
+
+#openedProduct-content {
+    float: left;
+    width: 67%;
+}
+
+#openedProduct-name {
+    font-family: Exo, sans-serif;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#openedProduct-desc {
+    margin-top: 20px;
+}
+
+#openedProduct-price {
+    margin-top: 10px;
+    color: #6a6747;
+    font-weight: bold;
+}
+
+/* ---------------- КОНЕЦ стилей для страниы с открытым товаром -------------------------- */
+
+/* ---------------- Форма обратной связи ---------------- */
+
+#promoOrderForm {
+    width: 100%;
+    height: 200px;
+    margin-top: -80px;
+    float: left;
+}
+
+#promoTextOrderForm {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    font-family: Exo, sans-serif;
+    font-size: 2em;
+    word-spacing: 8px;
+}
+
+/* ---------------- Форма обратной связи ---------------- */
+
+/* Базовые стили формы */
+
+form {
+    margin:75px auto;
+    max-width:45%;
+    box-sizing:border-box;
+    padding:40px;
+    border-radius:15px; 
+    background:RGBA(255,255,255,1);
+    -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+
+/* Стили полей ввода */
+
+.textbox {
+    height:50px;
+    width:100%;
+    border-radius:15px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px; 
+    padding:10px;
+    margin-bottom:30px;  
+}
+.message:focus,
+.textbox:focus {
+    outline:none;
+    border:rgba(24,149,215,1) 2px solid;
+    color:rgba(24,149,215,1);
+}
+
+/* Стили текстового поля */
+
+.message {
+    background: rgba(255, 255, 255, 0.4); 
+    width:100%;
+    height: 120px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 3px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+
+/* Базовые стили кнопки */
+
+.button {
+    height:50px;
+    width:100%;
+    border-radius:15px;
+    border:rgba(0,0,0,.3) 0px solid;
+    box-sizing:border-box;
+    padding:10px;
+    background:#90c843;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight:400;
+    font-size: 16pt;
+    transition:background .4s;
+    cursor:pointer;
+}
+
+/* Изменение фона кнопки при наведении */
+
+.button:hover {
+    background:#5fb438;
+}
